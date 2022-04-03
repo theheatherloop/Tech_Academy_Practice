@@ -1,9 +1,9 @@
 function openModal() {
-    document.getElementById("gallery").style.display = "block";
+    document.getElementById("myModal").style.display = "block";
 }
   
 function closeModal() {
-    document.getElementById("gallery").style.display = "none";
+    document.getElementById("myModal").style.display = "none";
 }
   
 var slideIndex = 1;
