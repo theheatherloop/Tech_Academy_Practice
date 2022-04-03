@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Basic HTML Template</title>
+        <meta charset="UTF-8">
+        <meta name="author" content="Heather">
+        <script src="JS/main.js"></script>
+        <style>
+            div {
+                box-align: center;
+                text-align: center ;
+                width: 290px;
+                height: 150px;
+                border: 20px solid #969696;
+                background: #d9dbda;
+                margin: 10px;
+            }
+        </style> 
+    </head>
+    <body>
+        <div>
+            What is 389 + 494?
+            <br>
+            <p id="Math"> </p>
+            <br>
+            Click the button for the answer!
+            <br>
+            <button type="button" onclick="add()">Answer!</button>
+       </div>
+
+        <div>
+            What is 534 - 265?
+            <br>
+            <p id="Math2"></p>
+            <br>
+            Click the button for the answer!
+            <br>
+            <button type="button" onclick="sub()">Answer!</button>      
+        </div>
+
+        <div>
+            What is 485 x 593?
+            <br>
+            <p id="Math3"></p>
+            <br>
+            Click the button for the answer!
+            <br>
+            <button type="button" onclick="mult()">Answer!</button>
+        </div>
+
+        <div>
+            What is 580 / 5?
+            <br>
+            <p id="Math4"></p>
+            <br>
+            Click the button for the answer!
+            <br>
+            <button type="button" onclick="div()">Answer!</button>
+        </div>
+                    
+        <div>
+            What is 1 + 2 x 10 / 2 - 5?
+            <br>
+            <p id="Math5"></p>
+            <br>
+            Click the button for the answer!
+            <br>
+            <button type="button" onclick="more_math()">Answer!</button>
+        </div>
+
+        <div>
+            What is the remainder of 25 / 6?
+            <br>
+            <p id="Math6"></p>
+            <br>
+            Click the button for the answer!
+            <br>
+            <button type="button" onclick="modulus()">Answer!</button>    
+        </div>
+
+        <div>
+            <br>
+            Click the button to negate the value of 10 !
+            <br>
+            <p id="Math7"></p>
+            <br>
+            <button type="button" onclick="negation()">Answer!</button>
+        </div>
+
+        <div>
+            <p>Click the button to increase by 1!</p>
+            <br>
+            <form>
+            <input type="text" id="Math8" value="0"/>
+            <input type="button" onclick="increment()" value="Increase" />
+            </form>
+        </div>
+
+        <div>
+            <p>Click the button to decrease by 1!</p>
+            <br>
+            <form>
+            <input type="text" id="Math9" value="10"/>
+            <input type="button" onclick="decrement()" value="Decrease" />
+            </form>
+        </div>
+        
+        <div>
+            <p>Click the button to get random number between 1 and 10</p>
+            <p id="Math10"></p>
+            <br>
+            <button type="button" onclick="random()">Randomizor!</button>
+        </div>
+
+    </body>
+</html>

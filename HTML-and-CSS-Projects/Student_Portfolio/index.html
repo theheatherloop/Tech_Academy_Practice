@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+    <!--Head-->
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width" />
+        <title>Heather Shultz</title>
+        <link rel="stylesheet" type="text/css" href="stylesheet/portfolio.css">
+        <link href='https://fonts.googleapis.com/css?family=Sofia' rel='stylesheet'>
+        <link href='https://fonts.googleapis.com/css?family=Balsamiq Sans' rel='stylesheet'>
+        <link href='https://fonts.googleapis.com/css?family=Bree Serif' rel='stylesheet'>
+    </head>
+
+    <!--Body-->
+    <body class="Background">
+        
+        <!--Navbar-->
+        <div class="Navbar">
+            <a class="active" href="#Home">Home</a>
+            <a href="#About">About</a>
+            <a href="#GitHub">GitHub</a>
+            <a href="#Contact">Contact</a>
+        </div>
+
+        <!--Breaks inserted to add space between navbar and the first heading-->
+        <br>
+        <br>
+
+        <!--Background video-->
+        <div id="Home">
+            <video autoplay muted loop id="Typing_Video">
+                <source src="images/video/Typing.mp4" type="video/mp4">
+                <!--Display message if video fails to run-->
+                Your browser does not support HTML5 video.
+            </video>
+        </div>
+
+        <!--Video text-->
+        <div class="Video_Text">
+            <h1 class="white-text">Heather Shultz</h1>
+            <strong>
+                <p class="center">
+                    <br>
+                    <br> Welcome to my portfolio website! On it, I will tell you about my background and experience.
+                    <br>
+                    <br> Thank you for stopping by and enjoy! 
+                </p>
+            </strong>
+        </div>
+
+        <!--About section-->
+        <div class="Row" id="About">
+            <!--Left column-->
+            <div class="Column_2">
+                <img src="images/tap_tap_work.webp" alt="Girl typing on computer">
+            </div>
+            <!--Right column-->
+            <div class="Column_1">
+                <h1>About</h1>
+                <p>
+                    I am a software developer who ❤️'s to code! When I'm not enthusiastically pecking away at my keyboard, I enjoy cooking and spending time with my two kids. 
+                    <br>
+                    <br>I am a graduate of <a href="https://www.udacity.com/" target"_blank">Udacity</a>'s Intro to Programming course. You can view my certificate <a href="https://confirm.udacity.com/6NJDVPNZ" target"_blank">here</a>! 
+                    I've since decided to further my education by becoming a student of <a href="https://www.learncodinganywhere.com" target="_blank">The Tech Academy</a>’s Software Developer Boot Camp. 
+                    <br>
+                    <br>I am a full-stack developer trained and experienced in HTML, CSS,&  JavaScript. My passion for coding drives me to learn as much as possible each day and  would love to work with you on your project. <a href="#Contact">Contact</a> me below!
+                </p>
+            </div>
+        </div>
+
+        <!--GitHub section-->
+        <div class="Row" id="GitHub">
+            <!--Left column-->
+            <div class="Column_arrow">
+                <h1>GitHub</h1>
+                <br>
+                &nbsp;
+                <p>
+                <br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; View my coding projects on my GitHub profile here:
+                </p>
+            </div>
+            <!--Right column-->
+            <div class="Column_2">
+                <a href="https://github.com/the-heather" target="_blank"><img src="images/GitHub.png" alt="GitHub Logo"></a>
+            </div>
+        </div>
+
+        <!--Contact section-->
+        <div class="Row" id="Contact">
+            <!--Contact image, left column-->
+            <div class="Column_2 Column_tall">
+                <img src="images/393.jpg" alt="cartoon mail">
+            </div>
+            <!--Contact form, right column-->
+            <div class="Column_1 Column_tall">
+                <h1>Contact Me!</h1>
+                <!--This specifies where and how to send the form data; we are leaving it blank-->
+                <form action="" method="POST"> <!-- Here we are utilizing a 3rd party service to submit the contact form data, insert your formspree endpoint in the action attribute -->
+                    <label>Name:</label>
+                        <input type="text" placeholder="Name">
+                    <label>Email:</label>
+                        <input type="text" id="Email" name="Email" placeholder="Email">
+                    <label>Message:</label>
+                        <input type="text" id="Message" name="Message" placeholder="Your Message">
+                        <input type="submit" value="SUBMIT">
+                </form>
+            </div>
+        </div>
+
+        <!--Footer section-->
+        <footer>
+            <p>
+                'About Me' Image credit: <a href="https://www.patreon.com/1041uuu" target"_blank">1041uuu</a>
+                <br>
+                <br>
+            </p>
+        </footer>
+    </body>
+</html>

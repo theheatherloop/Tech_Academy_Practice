@@ -1,0 +1,17 @@
+table, th, td { 
+	border:2px solid silver;
+	text-align:center;
+	}
+td:hover {
+	background-color: Lime;
+	color: Black;
+}
+tr, th {
+	background-color: darkgreen;
+	Color: white;
+}
+tr, td {
+	background-color: darkgreen;
+	Color: white;
+}
+		
