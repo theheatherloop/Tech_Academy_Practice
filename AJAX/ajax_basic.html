@@ -25,7 +25,7 @@
             //Step 3 - Define the AJAX Callback
             ajax.onreadystatechange = function() {
                 if(ajax.readyState == 4) {
-                    document.getELementById("content").innerHTML = ajax.responseText;
+                    document.getElementById("content").innerHTML = ajax.responseText;
                 }
             }
             //Step 4 - Call on the AJAX Send();
