@@ -22,4 +22,4 @@ The classic game of tic-tac-toe. Users battle against an AI for the chance to be
 
 ### Calculator
 -------------
-A basic 4 function calculator. Users can add, subtract, multiply, and divide on a sleek and colorful web version.
+Users can add, subtract, multiply, and divide on this sleek yet colorful 4 function calculator.
